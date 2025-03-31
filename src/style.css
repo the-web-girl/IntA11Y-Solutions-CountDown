@@ -108,6 +108,12 @@ h2 {
     -ms-border-radius:15px;
     -o-border-radius:15px;
     border-radius:15px;
+
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
 }
 .time-box-inner {
 	width:150px;
@@ -167,7 +173,7 @@ h2 {
     .time-count-container{
 		display:flex;
 		flex-direction: column;
-		background-color: lawngreen;
+		/* background-color: lawngreen; */
         /* Je saigne des yeux */
 		margin: 40px auto;
 	}
