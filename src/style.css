@@ -95,4 +95,14 @@ h2 {
 	width: 100%;
 	min-height: 80px;
 }
+#footer-section p {
+	margin: 0;
+	padding: 25px 15px; 
+	text-align: center;
+	line-height: 30px;
+	color: #000000;
+}
+#footer-section p a {
+	color: #af0909;
+}
 /* End Footer */
