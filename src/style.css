@@ -80,3 +80,19 @@ p span:before {
 p span:after {
 	bottom:2px;
 }
+
+h2 {
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:80px;
+}
+
+
+
+/* Start Footer */
+#footer-section {
+	width: 100%;
+	min-height: 80px;
+}
+/* End Footer */
