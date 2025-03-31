@@ -41,3 +41,16 @@ h1 {
 	font-family:'Roboto', sans-serif;
 	position:relative;
 }
+/* End Header */
+
+
+/* Start CountDown */
+.container-countdown {
+	background-color: aqua;
+	width: 100%;
+	min-height: 100%;
+}
+.content {
+	overflow:hidden;
+	height: 100%;
+}
