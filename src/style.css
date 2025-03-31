@@ -13,8 +13,9 @@ body {
 	color:#fff;
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(../images/contact.jpg);
-	background-repeat:no-repeat;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(./img/contact.jpg);
+	background-blend-mode: darken;
+    background-repeat:no-repeat;
 	background-position:50% 0;
 	background-size:cover;
 	padding: 0;
@@ -46,7 +47,7 @@ h1 {
 
 /* Start CountDown */
 .container-countdown {
-	background-color: darkred;
+	/* background-color: darkred; */
 	width: 100%;
 	min-height: 100%;
 }
@@ -162,7 +163,7 @@ h2 {
 	padding: 25px 15px; 
 	text-align: center;
 	line-height: 30px;
-	color: #000000;
+	color: #fff;
 }
 #footer-section p a {
 	color: #af0909;
@@ -211,4 +212,16 @@ h2 {
     .digit {
 		font-size: 35px;
 	}
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
