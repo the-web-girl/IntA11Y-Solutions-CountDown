@@ -109,6 +109,31 @@ h2 {
     -o-border-radius:15px;
     border-radius:15px;
 }
+.time-box-inner {
+	width:150px;
+	height:150px;
+	text-align:center;
+}
+.time-number {
+    font-size:65px;
+	width:100%;
+	display:inline-block;
+	font-weight:300;
+	padding-top: 15%;
+}
+.digit {
+	line-height: 60px;
+	display: inline-block;	
+	overflow: hidden;
+}
+
+.time-name {
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+
 
 /* Start Footer */
 #footer-section {
