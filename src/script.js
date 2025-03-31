@@ -14,7 +14,38 @@ let seconds = Math.floor(distance % (1000*60) / (1000));
 
 // Ce qui se trouve dans #id-time_countdown va venir ici cette partie de l'html sera créer via la js
 document.querySelector("#time_countdown").innerHTML = `
-
+    <div class="time-box">
+        <div class="time-box-inner">
+            <span class="time-number">
+                <span class="digit">${days}</span>
+            </span>
+            <span class="time-name">Jours</span>
+        </div>
+    </div>
+    <div class="time-box">
+        <div class="time-box-inner">
+            <span class="time-number">
+                <span class="digit">${hours}</span>
+            </span>
+            <span class="time-name">H</span>
+        </div>
+    </div>
+    <div class="time-box">
+        <div class="time-box-inner">
+            <span class="time-number">
+                <span class="digit">${minutes}</span>
+            </span>
+            <span class="time-name">Minutes</span>
+        </div>
+    </div>
+    <div class="time-box">
+        <div class="time-box-inner">
+            <span class="time-number">
+                <span class="digit">${seconds}</span>
+            </span>
+            <span class="time-name">Secondes</span>
+        </div>
+    </div>
 
 `
 
