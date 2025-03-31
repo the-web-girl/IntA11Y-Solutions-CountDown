@@ -46,7 +46,7 @@ h1 {
 
 /* Start CountDown */
 .container-countdown {
-	background-color: aqua;
+	background-color: darkred;
 	width: 100%;
 	min-height: 100%;
 }
@@ -88,7 +88,27 @@ h2 {
 	font-size:80px;
 }
 
+.time-count-container {
+	height:100%;
+	margin-top:50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.time-box {
+    width:150px;
+	height:150px;
+	display:flex;
+	flex-direction: row;
+	border:3px solid #fff;
+	margin:50px 10px;
 
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    border-radius:15px;
+}
 
 /* Start Footer */
 #footer-section {
