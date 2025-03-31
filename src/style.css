@@ -132,8 +132,7 @@ h2 {
 	text-transform:uppercase;
 	font-weight:700;
 }
-
-
+/* End CountDown */
 
 /* Start Footer */
 #footer-section {
@@ -151,3 +150,26 @@ h2 {
 	color: #af0909;
 }
 /* End Footer */
+
+/* Start Media Queries */
+@media screen and (max-width:799px) {
+    body {
+		height: 100%;
+	}
+    h1 {
+		font-size:45px;
+		padding-bottom: 10px;
+		margin:0 0 10px 0;
+	}
+	h2 {
+		font-size:40px;
+	}
+    .time-count-container{
+		display:flex;
+		flex-direction: column;
+		background-color: lawngreen;
+        /* Je saigne des yeux */
+		margin: 40px auto;
+	}
+
+}
