@@ -171,5 +171,18 @@ h2 {
         /* Je saigne des yeux */
 		margin: 40px auto;
 	}
+    .time-box {
+		width:80px;
+		height:80px;
+		display:flex;
+		flex-direction: row;
+		border:3px solid #fff;
+		margin:0px auto!important;
+	}
+    .time-box-inner {
+		width:50px;
+		height:50px;
+		text-align:center;
+	}
 
 }
