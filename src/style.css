@@ -184,5 +184,13 @@ h2 {
 		height:50px;
 		text-align:center;
 	}
-
+    .time-number {
+		width:100%;
+		display:inline-block;
+		font-weight:300;
+		padding-top: 5%;
+	}
+    .digit {
+		font-size: 35px;
+	}
 }
