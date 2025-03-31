@@ -119,6 +119,12 @@ h2 {
 	width:150px;
 	height:150px;
 	text-align:center;
+
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
 }
 .time-number {
     font-size:65px;
