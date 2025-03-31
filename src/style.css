@@ -132,6 +132,12 @@ h2 {
 	display:inline-block;
 	font-weight:300;
 	padding-top: 15%;
+
+    -webkit-transition:all .25s;
+    -moz-transition:all .25s;
+    -ms-transition:all .25s;
+    -o-transition:all .25s;
+    transition:all .25s;
 }
 .digit {
 	line-height: 60px;
