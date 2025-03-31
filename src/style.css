@@ -1,0 +1,22 @@
+/* IMPORTS Fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+
+/* RESET */
+*, ::after, ::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(../images/contact.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 0;
+	background-size:cover;
+	padding: 0;
+	margin: 0;
+}
